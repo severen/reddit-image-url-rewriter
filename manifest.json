@@ -6,6 +6,7 @@
   "description": "An extension that rewrites Reddit image preview URLs to their full-sized equivalents.",
   "permissions": ["webRequest", "webRequestBlocking", "*://preview.redd.it/*"],
   "background": {
-    "service_worker": "src/background.js"
+    "scripts": ["src/background.js"],
+    "persistent": true
   }
 }
