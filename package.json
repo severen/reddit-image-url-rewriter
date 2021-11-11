@@ -1,0 +1,25 @@
+{
+  "name": "reddit-image-url-rewriter",
+  "version": "0.1.0",
+  "description": "A Chrome extension that rewrites Reddit image preview URLs to their full-sized equivalents.",
+  "author": "Severen Redwood",
+  "license": "Unlicense",
+  "homepage": "https://github.com/severen/reddit-image-url-rewriter#readme",
+  "bugs": {
+    "url": "https://github.com/severen/reddit-image-url-rewriter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/severen/reddit-image-url-rewriter.git"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src/**/*",
+    "lint": "eslint src/**/*"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1"
+  }
+}
