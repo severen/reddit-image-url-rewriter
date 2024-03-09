@@ -4,7 +4,7 @@
   "name": "Reddit Image URL Rewriter",
   "version": "0.1.0",
   "description": "An extension that rewrites Reddit image preview URLs to their full-sized equivalents.",
-  "permissions": ["webRequest", "webRequestBlocking", "*://preview.redd.it/*"],
+  "permissions": ["webRequest", "webRequestBlocking", "*://preview.redd.it/*", "*://i.imgur.com/*"],
   "background": {
     "scripts": ["src/background.js"],
     "persistent": true
